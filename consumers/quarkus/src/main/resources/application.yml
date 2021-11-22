@@ -1,0 +1,10 @@
+greeting:
+  message: "hello"
+
+"%dev":
+  mp:
+    messaging:
+      incoming:
+        "external-input":
+          connector: smallrye-amqp
+          address: queue.text
